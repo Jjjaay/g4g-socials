@@ -1,0 +1,134 @@
+body {
+    margin: auto;
+    display: block;
+    background-size: 100%;
+    background: linear-gradient(#a774d1 40%, #9ee0ff ) ;
+    background-repeat: repeat;
+    touch-action: none /*mobile one finger swipe y axis pan-y;*/
+    
+  }
+  
+  nav {
+    margin-bottom: 300px;
+  }
+    
+  .g4g-logo {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  #socials {
+    display: flex;
+    text-align: center;
+      
+  
+  }
+  
+  .button-64 {
+    align-items: center;
+    
+    border: 30px;
+    border-radius: 8px;
+    box-shadow: rgb(255, 255, 255) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 1.7px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 50px;
+    
+    
+  }
+  
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    margin-top: auto;
+    
+    
+    
+  }
+    
+  
+  .button-64:active, .button-64:hover {
+    outline: 0;
+      
+  }
+    
+  .button-64 span {
+    background-color: rgb(255, 128, 227);
+    padding: 15px 24px;
+    
+    border-radius: 6px;
+    width: 750px;
+    height: 100%;
+    transition: background-color .7s ease-in-out;
+  }
+    
+  .button-64:hover span {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 153, 0);
+  }
+  
+  
+  
+  
+  
+  
+    
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  .bheader {
+    
+    text-transform: capitalize;
+    text-align: left;
+    
+    
+    font-size: 11px;
+    
+    width:fit-content;
+    height: fit-content;
+    
+    
+    
+  
+  }
+  
+  
+  /*#bg-gradient {
+      height: 100vh;
+      width: 100%;
+      /*background: radial-gradient(circle 375px, #c35cff, #ffa526);
+      text-align: ;
+  
+  }*/
+  
